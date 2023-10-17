@@ -38,25 +38,11 @@ int count = 0;
 auto main(int argc, char **argv) -> int {
     LOG("开始默写一卷十个单词,输入666可查看答案");
 
-    LOG("11.It is not necessary");
-    std::vector<std::string> words1 = {
-        "native",     "confused",  "worthwhile",   "prices",
-        "earn",       "personal",  "suggesstions", "14th",
-        "pointed",    "member",    "enjoyed",      "research",
-        "interested", "education", "nicely",       "certain",
-        "staff",      "seek",      "additional",   "consideration"};
-    /*
-for (const auto &word : words1) {
-    count++;
-    LOG("输入第", count, "个单词");
-
-    std::string input;
-    LOG(word);
-
-    // pd(word, input, error_sum);
-}
-*/
-    for (const auto &word : words1) {
+    LOG("11.	China’s population");
+    std::vector<std::string> words2 = {
+        "1.38", "waiting", "influence", "started", "central",
+        "earn", "father",  "beautiful", "lawyers", "plane"};
+    for (const auto &word : words2) {
         count++;
         LOG("输入第", count, "个单词");
 
