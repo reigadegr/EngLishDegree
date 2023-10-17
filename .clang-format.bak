@@ -1,7 +1,7 @@
 #this file from yc9559
 BasedOnStyle: LLVM
 IndentWidth: 4
-#AccessModifierOffset: -4
+AccessModifierOffset: -4
 IndentCaseLabels: true
 AlwaysBreakTemplateDeclarations: Yes
 ConstructorInitializerAllOnOneLineOrOnePerLine: true

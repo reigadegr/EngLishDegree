@@ -9,6 +9,11 @@ static void LOG(const Args &...args) {
     std::cout << std::endl;
 }
 
+struct xzs {
+    std::string num;
+    std::string daan;
+};
+
 auto pd(std::string word, std::string input, int &error_sum) -> bool {
     if (input == mmm) {
         LOG("正确答案: ", word, "\n");
@@ -38,32 +43,64 @@ int count = 0;
 auto main(int argc, char **argv) -> int {
     LOG("开始默写一卷十个单词,输入666可查看答案");
 
-    LOG("11.It is not necessary");
+    // LOG("11.It is not necessary");
     std::vector<std::string> words1 = {
         "native",     "confused",  "worthwhile",   "prices",
         "earn",       "personal",  "suggesstions", "14th",
         "pointed",    "member",    "enjoyed",      "research",
         "interested", "education", "nicely",       "certain",
         "staff",      "seek",      "additional",   "consideration"};
+
     /*
-for (const auto &word : words1) {
-    count++;
-    LOG("输入第", count, "个单词");
+13.The teachers think that college education is a(n) ________ investment.
+14.She thinks the quality is more important than the ________.
+15.Many young people went to big cities to ________ more money.
+16.We should not be ________ when discussing the work of the company.
+17.Jack asks Professor Johnson for some ________ about English
+pronunciation.
+18.The flight on September ________, 2012 is delayed.
+19.The teacher immediately ________ out the mistake.
+20.Now people treat a dogjust like a ________ of the family.
 
-    std::string input;
-    LOG(word);
-
-    // pd(word, input, error_sum);
-}
 */
-    for (const auto &word : words1) {
+    std::vector<xzs> wk;
+    wk.push_back(
+        {"11.It is not necessary for you to speak like a ________ speaker",
+         "native"});
+    wk.push_back(
+        {"12.The speaker is ________ about how to select her courses. ",
+         "confused"});
+    wk.push_back({"13.The teachers think that college education is "
+                  "a(n)________ investment.",
+                  "worthwhile"});
+    wk.push_back(
+        {"14.She thinks the quality is more important than the ________.",
+         "prices"});
+    wk.push_back(
+        {"15.Many young people went to big cities to ________ more money.",
+         "earn"});
+    wk.push_back({"16.We should not be ________ when discussing the work of "
+                  "the company.",
+                  "personal"});
+
+    wk.push_back({"17.Jack asks Professor Johnson for some ________ about "
+                  "English pronunciation.",
+                  "suggesstions"});
+    wk.push_back(
+        {"18.The flight on September ________, 2012 is delayed.", "14th"});
+    wk.push_back(
+        {"19.The teacher immediately ________ out the mistake.", "pointed"});
+    wk.push_back(
+        {"20.Now people treat a dogjust like a ________ of the family.",
+         "member"});
+    for (const auto &word : wk) {
         count++;
         LOG("输入第", count, "个单词");
-
+        LOG("题目: ", word.num);
         std::string input;
         std::cin >> input;
 
-        pd(word, input, error_sum);
+        pd(word.daan, input, error_sum);
     }
     LOG("结束，按任意键退出");
     std::cin.get();
