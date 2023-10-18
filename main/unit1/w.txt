@@ -1,0 +1,15 @@
+61 determination
+62 caring
+63 purchased
+64 crept
+65 resided
+
+66 gathered
+67 wrapped
+68 reflect
+69 corridors
+70 mysterious
+
+#取首字母对应英文单词 数字为三个c开头的单词的长度
+dcpcr gwrcm
+3c=659

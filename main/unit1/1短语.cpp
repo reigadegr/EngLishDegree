@@ -44,24 +44,10 @@ auto main(int argc, char **argv) -> int {
     LOG("开始默写一卷十个单词,输入666可查看答案");
 
     // LOG("11.It is not necessary");
-    std::vector<std::string> words1 = {
-        "native",     "confused",  "worthwhile",   "prices",
-        "earn",       "personal",  "suggesstions", "14th",
-        "pointed",    "member",    "enjoyed",      "research",
-        "interested", "education", "nicely",       "certain",
-        "staff",      "seek",      "additional",   "consideration"};
-
     /*
-13.The teachers think that college education is a(n) ________ investment.
-14.She thinks the quality is more important than the ________.
-15.Many young people went to big cities to ________ more money.
-16.We should not be ________ when discussing the work of the company.
-17.Jack asks Professor Johnson for some ________ about English
-pronunciation.
-18.The flight on September ________, 2012 is delayed.
-19.The teacher immediately ________ out the mistake.
-20.Now people treat a dogjust like a ________ of the family.
-
+    std::vector<std::string> words1 = {
+        "enjoyed", "research", "interested", "education",  "nicely",
+        "certain", "staff",    "seek",       "additional", "consideration"};
 */
     std::vector<xzs> wk;
     wk.push_back(
