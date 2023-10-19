@@ -20,7 +20,7 @@
 25 FJ inv*n
 
 26-30:
-速记(末尾字母): trely: FTTFF
+速记(末尾字母): trely:  01100
 
 41-45(首字母和末尾字母): crsoa edene
 
@@ -34,6 +34,7 @@
 dcpcr gwrcm
 3c=659
 2r=dt
+
 #注释: (zc):最长的选项 (zd):最短的选项
 71-75: fB(zc)(zc)(zc)
 76-80: fd(zd)100(zc)
