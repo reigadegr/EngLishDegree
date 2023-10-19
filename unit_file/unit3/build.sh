@@ -28,7 +28,7 @@ compile_start(){
         $i -o $(basename $i)_elf && echo "*编译完成*" || exit 1
         /data/data/com.termux/files/usr/bin/aarch64-linux-android-strip $(basename $i)_elf
     done
-    #
+    
     chmod +x $(dirname "$0")/*
 
     echo "当前时间：$(date +%Y) 年 $(date +%m) 月 $(date +%d) 日 $(date +%H) 时 $(date +%M) 分 $(date +%S) 秒"

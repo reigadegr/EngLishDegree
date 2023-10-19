@@ -9,8 +9,9 @@ static void LOG(const Args &...args) {
     std::cout << std::endl;
 }
 
-auto pd(std::string word, std::string input, int &error_sum) -> bool {
+auto pd(std::string word, std::string input, int &error_sum, bool &ok) -> bool {
     if (input == mmm) {
+        ok = false;
         LOG("正确答案: ", word, "\n");
         LOG("重新输入: ");
         std::cin >> input;
@@ -28,15 +29,15 @@ auto pd(std::string word, std::string input, int &error_sum) -> bool {
             LOG("重新输入: ");
             std::cin >> input;
         }
-        pd(word, input, error_sum);
+        pd(word, input, error_sum, ok);
     }
     return true;
 }
 int error_sum = 0;
 int count = 0;
-
+bool ok = true;
 auto main(int argc, char **argv) -> int {
-    LOG("开始默写一卷十个单词,输入666可查看答案");
+    LOG("开始默写二卷十个单词,输入666可查看答案");
 
     LOG("11.	China’s population");
     std::vector<std::string> words2 = {
@@ -49,7 +50,13 @@ auto main(int argc, char **argv) -> int {
         std::string input;
         std::cin >> input;
 
-        pd(word, input, error_sum);
+        pd(word, input, error_sum, ok);
+    }
+    if (ok) {
+        LOG("通过");
+
+    } else {
+        LOG("不通过");
     }
     LOG("结束，按任意键退出");
     std::cin.get();

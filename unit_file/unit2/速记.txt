@@ -1,0 +1,26 @@
+1.	A. fool				B. full*
+2.	A. cheers* 			B. chairs
+3.	A. spots			B. sports*
+4.	A. live	    		B. leave*
+5.	A. bake				B. back *
+6.	A. west* 			B. vest
+7.	A. thought  		B. sort *
+8.	A. trunk 			B. drunk*
+9.	A. treat 	       	B. trade*
+10.	A. pushed*		  	B. bushed
+
+
+
+A. bake B. back
+A. treat B. trade
+A. cheers B. chairs
+A. pushed B. bushed
+A. spots B. sports
+A. west B. vest
+A. live B. leave
+A. thought B. sort
+A. fool B. full
+A. trunk B. drunk
+
+
+

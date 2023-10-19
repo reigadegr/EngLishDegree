@@ -41,6 +41,7 @@ int main() {
     xz.push_back({"21-25", "cabcb"});
     xz.push_back({"26-30", "fttff"});
     */
+    xz.push_back({"26-30", "fttff"});
     for (const auto &tm : xz) {
         LOG("输入编号为: ", tm.num, "的答案");
         std::string input;

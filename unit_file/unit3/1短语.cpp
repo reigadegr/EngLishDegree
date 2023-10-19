@@ -39,9 +39,18 @@ auto main(int argc, char **argv) -> int {
     LOG("开始默写一卷十个单词,输入666可查看答案");
 
     LOG("11.	China’s population");
+
     std::vector<std::string> words2 = {
         "1.38", "waiting", "influence", "started", "central",
         "earn", "father",  "beautiful", "lawyers", "plane"};
+    std::vector<std::string> words3 = {
+        "medical",  "cure", "incorrectly", "smoothly", "longer",
+        "invented", "bear", "serve",       "sweat",    "appetite"};
+
+    for (const auto &tmp : words3) {
+        words2.push_back(tmp);
+    }
+
     for (const auto &word : words2) {
         count++;
         LOG("输入第", count, "个单词");
@@ -51,6 +60,7 @@ auto main(int argc, char **argv) -> int {
 
         pd(word, input, error_sum);
     }
+
     LOG("结束，按任意键退出");
     std::cin.get();
 }
