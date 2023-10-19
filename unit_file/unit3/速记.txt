@@ -1,4 +1,14 @@
 unit3:
 11-15: Opwch 11001
 16-20: "再56里", "AD", "1905 2th 7","(zc)","(zd)"
-21-25: 
+21-25: 3 SFE 1 1 reject
+26-35
+36-40：aifds
+41-45: sprr (cs)
+46-50: wh (cb) e (rk) 
+51-55:(ip) tqbb
+56-65:
+dogrr  habrc
+2r=12
+
+
