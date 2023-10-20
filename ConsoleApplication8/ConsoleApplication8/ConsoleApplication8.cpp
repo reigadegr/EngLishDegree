@@ -17,7 +17,7 @@ void runMain(std::vector<td> &wt) {
 			continue;
 		}
 		LOG("题目：", word.tm);
-		LOG("选项: ", word.xx, "\n");
+		LOG("\n", word.xx, "\n");
 		std::string input;
 		std::cin >> input;
 		pd(word.da, input, error_sum);

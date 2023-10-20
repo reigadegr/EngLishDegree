@@ -13,10 +13,25 @@ wt.push_back({"84. Which of the following appropriately describes the spending h
 
 wt.push_back({"85. According to the passage, what is the main reason for the different spending habits of Chinese people and American people?", "\nA. American people have a much higher living standard than Chinese people.\nB. Chinese people have received more traditional education than American people.\nC. American people and Chinese people are brought up in different social culture.\nD. American people and Chinese people have different attitudes to their families.", "c"});
 
+wt.push_back({"86. Boys often behave in an inappropriate way, which is acceptable to many adults because ________.", " \nA. the phrase ¡°boys will be boys¡± has taken hold in their mind\nB. boys, in the eyes of adults, are quite different from grown-ups\nC. boys cannot control their behavior\nD. boys are too immature to make sound judgments", "a"});
+
+wt.push_back({"87. It is maintained in this passage that teenage boys should ________.", "A. know the consequences of what they do\nB. not be given an improper excuse for their behavior\nC. take full responsibility for what they do\nD. be more mature than they used to be", "b"});
+
+wt.push_back({"88. According to the author, parents should teach their boys ________.", "A. how to respect others as well as themselves\nB. how to win respect through violence\nC. safe driving rules\nD. how to be men in peaceful ways", "a"});
+wt.push_back({"89. Violence of boys in schools is attributed in part to ________.", "A. their parents¡¯ view of being a man\nB. the influence of society\nC. their immature world outlook\nD. their aggressive attitudes toward others", "a"});
+
+wt.push_back({"90. Which word may be used to describe the writer¡¯s attitude toward ¡°boys will be boys¡±?", "A. Indifferent. \nB. Negative.\nC. Positive.\nD. Neutral.", "b"});
+
+wt.push_back({"", "", ""});
 wt.push_back({"", "", ""});
 
 wt.push_back({"", "", ""});
 
+wt.push_back({"", "", ""});
+
+wt.push_back({"", "", ""});
+
+wt.push_back({"", "", ""});
 wt.push_back({"", "", ""});
 
 
