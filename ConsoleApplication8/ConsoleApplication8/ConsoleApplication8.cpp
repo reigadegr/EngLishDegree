@@ -7,8 +7,10 @@ struct td {
 	std::string xx;
 	std::string da;
 };
-void runMain(std::vector<td>& wt) {
-	#include "u1.h";
+int error_sum = 0;
+void runMain(std::vector<td> &wt);
+void runMain(std::vector<td> &wt) {
+	#include "u1.h"
 	for (const auto& word : wt) {
 		if (word.tm == "" || word.da == "" || word.xx == "")
 		{
@@ -22,8 +24,9 @@ void runMain(std::vector<td>& wt) {
 	}
 }
 
-int error_sum = 0;
+
 auto main(int argc ,char **argv)->int {
+    LOG("全部输入小写字母");
 	std::vector<td> wt;
 	runMain(wt);
 }
