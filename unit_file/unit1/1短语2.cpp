@@ -38,7 +38,6 @@ int count = 0;
 bool ok = true;
 auto main(int argc, char **argv) -> int {
     LOG("开始默写一卷第二部分十个单词,输入666可查看答案");
-
     LOG("我想要感谢你");
     std::vector<std::string> words2 = {
         "enjoyed", "research", "interested", "education",  "nicely",
@@ -58,5 +57,6 @@ auto main(int argc, char **argv) -> int {
         LOG("不通过");
     }
     LOG("结束，按任意键退出");
+    std::cin.get();
     std::cin.get();
 }

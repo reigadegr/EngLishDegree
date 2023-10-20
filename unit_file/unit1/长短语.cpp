@@ -43,15 +43,15 @@ int main() {
     xz.push_back({"6-10", "bbaba"});
     xz.push_back({"21-25", "cabcb"});
     */
-    xz.push_back({"26-30(判断)", "fttff"});
+    // xz.push_back({"26-30(判断)", "fttff"});
     /*
     xz.push_back({"41-45", "cacad"});
     xz.push_back({"46-50", "bbdcd"});
     xz.push_back({"51-55", "acbab"});
     xz.push_back({"56-60", "adcbd"});
     */
-    xz.push_back({"61-65(多字母选择-1)", "bhdci"});
-    xz.push_back({"66-70(多字母选择-2)", "efjag"});
+    //   xz.push_back({"61-65(多字母选择-1)", "bhdci"});
+    //   xz.push_back({"66-70(多字母选择-2)", "efjag"});
     /*
     xz.push_back({"71-75", "cbcba"});
     xz.push_back({"76-80", "dcdbd"});

@@ -1,26 +1,25 @@
 #pragma once
+#include "LOG.hpp"
 #include <iostream>
 #include <vector>
-#include"LOG.hpp"
-auto pd(std::string word, std::string input, int& error_sum) -> bool {
+auto pd(std::string word, std::string input, int &error_sum) -> bool {
     if (input == "666") {
 
-        LOG("ÕýÈ·´ð°¸: ", word, "\n");
-        LOG("ÖØÐÂÊäÈë: ");
+        LOG("æ­£ç¡®ç­”æ¡ˆ: ", word, "\n");
+        LOG("é‡æ–°è¾“å…¥: ");
         std::cin >> input;
     }
     if (word == input) {
-        LOG("ÕýÈ·,ÏÂÒ»¸ö\n");
+        LOG("æ­£ç¡®,ä¸‹ä¸€ä¸ª\n");
         return true;
-    }
-    else {
+    } else {
         error_sum++;
-        LOG("´íÎó,ÔÙÊÔÒ»´Î");
-        LOG("ÒÑ¾­´íÁË", error_sum, "´Î\n");
+        LOG("é”™è¯¯,å†è¯•ä¸€æ¬¡");
+        LOG("å·²ç»é”™äº†", error_sum, "æ¬¡\n");
         std::cin >> input;
         if (input == "666") {
-            LOG("ÕýÈ·´ð°¸: ", word, "\n");
-            LOG("ÖØÐÂÊäÈë: ");
+            LOG("æ­£ç¡®ç­”æ¡ˆ: ", word, "\n");
+            LOG("é‡æ–°è¾“å…¥: ");
             std::cin >> input;
         }
         pd(word, input, error_sum);
