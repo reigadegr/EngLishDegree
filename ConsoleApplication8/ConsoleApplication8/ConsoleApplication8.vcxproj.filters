@@ -32,5 +32,8 @@
     <ClInclude Include="u2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="u3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
