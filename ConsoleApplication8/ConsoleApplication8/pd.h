@@ -9,7 +9,7 @@ auto pd(std::string word, std::string input, int& error_sum) -> bool {
         LOG("重新输入: ");
         std::cin >> input;
     }
-    if (word == input) {
+    if (word.find(input)!=std::string::npos) {
         LOG("正确,下一个\n");
         return true;
     }
